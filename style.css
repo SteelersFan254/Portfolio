@@ -18,7 +18,6 @@ body {
 #navbar {
     width: 100%;
     padding: 5px;
-    margin-bottom: 20px;
 }
 
 #pageBox {
@@ -34,6 +33,7 @@ body {
     background: rgba(128, 128, 128, 0.6);
     border-radius: 10px;
     overflow: auto;
+    margin-bottom: 20px;
 }
 
 #aboutMe {
@@ -41,14 +41,30 @@ body {
 }
 p {
     text-indent: 20px;
+    font-size: 20px;
 }
 
-img {
+#selfImage {
     float: right;
-    margin: 10px;
+    margin: 0 10px;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+.projectAbout {
+    float:left;
+    width: 60%;
+}
+.projectImage {
+    float: right;
+}
+
+.projInfo {
+    margin: 10px;
+}
+.projTech {
+    columns: 2;
 }
